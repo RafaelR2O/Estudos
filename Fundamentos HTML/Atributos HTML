@@ -1,0 +1,50 @@
+Atributos HTML
+- Todos os elemntos HTML podem ter atributos
+- Os atributos fornecem informações acionais sobre os elemntos.
+- Os atributos são sempre especificados na tag inicial.
+- Os atributos geralmente vêm em pares de nome/valor como: name="value"
+
+-----------------------------------------------------------------------------------------------------------
+
+Atributo href
+A tag define um hiperlink. O atributo especifica a URL da página.
+exemplo: <a href="https://www.w3schools.com">Visite w3schools</a>
+
+-----------------------------------------------------------------------------------------------------------
+
+Atributo src
+A tag é usada para incorporar uma <img> src em uma página html. 
+O atributo especifica o caminho para a imagem a ser exibida.
+Exemplo: <img src="img_girl.jpg">
+
+Há 02 maneiras de especificar a URL no atributo src:
+1 - URL abosuloto: Links para uma imagem externa hospedada em outro site. 
+Exemplo: <img src="https://www.w3schools.com/images/img_girl.jpg">
+
+Anotações: Imagens externas podem estar protegidas por direitos autorais. 
+Se você não obtiver permissão para usá-las, poderá infringir a legislação de direitos autorais.
+Além disso, imagens externas estão fora do seu controle e podem ser removidas ou alteradas inesperadamente.
+
+2 - URL relativa: Links para uma imagem hospedada em o site. Aqui, o URL não inclui o nome de domínio.
+Se o URL começar sem uma barra, será relativo à página atual.
+Exemplo: <img src="img_girl.jpg">
+Se o URL começar com uma barra, ele será relativo ao domínio. 
+Exemplo: <img src="/images/img_girl.jpg">
+
+-----------------------------------------------------------------------------------------------------------
+
+Os atributos de largura e altura
+A tag <img> também deve conter os atributos width e height, que especificam a largura e a altura da 
+imagem (em pixels).
+Exemplo: <img src="img_girl.jpg" width="500" height="600">
+
+-----------------------------------------------------------------------------------------------------------
+
+O atributo alt
+O atributo alt da tag <img> especifica um texto alternativo para a imagem, caso ela não possa ser exibida.
+Isso pode ocorrer devido a uma conexão lenta, um erro no caminho da imagem (src) ou quando o usuário utiliza um 
+leitor de tela para acessibilidade.
+exemplo: <img src="img_girl.jpg" alt="Girl with a jacket">
+
+-----------------------------------------------------------------------------------------------------------
+
